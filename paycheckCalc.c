@@ -22,8 +22,11 @@ int main(void)
     }
     else if (totalHours < 40)
     {
+        
         normalHours = totalHours;
-        overtimeHours = 0;   
+        
+        overtimeHours = 0;
+        
     }
 
     float totalPay = (normalHours * hourlyPay) + (overtimeHours * hourlyPay * 1.5);
