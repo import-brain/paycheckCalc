@@ -8,9 +8,9 @@ int main(void)
     
     int totalHours = get_int("How many hours did you work this week? ");
     
-    int overtimeHours;
+    int overtimeHours = 0;
 
-    int normalHours;
+    int normalHours = 0;
 
     if (totalHours > 40)
     {
